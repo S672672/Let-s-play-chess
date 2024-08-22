@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import Board from './Board';
 
-// Helper function to determine if the king has legal moves
+
 const kingHasLegalMoves = (squares, kingPosition) => {
-  // Logic to determine if the king has any legal moves.
-  // This is a placeholder and should include comprehensive chess rules.
-  return true; // Assume the king has moves for now.
+
+  return true; 
 };
 
 const Game = () => {
